@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp Ý</title>
+    <link rel="stylesheet" href="./CSS/css.css">
+    <link rel="icon" href="./HINHANH/uxno1snb.jpg">
+
+</head>
+
+<body id="abody">
+    <audio id="audio" src="./HINHANH/haha.mp3" autoplay loop></audio>
+    <header>
+        <div id="Tieude">
+            <a href="index.html">Trang Chủ</a>
+            <a href="GOPY.html">Góp Ý</a>
+        </div>
+    </header>
+    <main>
+        <h1 id="canhgiua">GÓP Ý</h1>
+
+        <p class="chu">Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cám ơn.
+        </p>
+        <table align="center">
+            <form>
+
+                <tr>
+                    <td>Họ Tên: <input type="text" name="hoten"><br></td>
+                </tr>
+                <tr>
+                    <td>Địa Chỉ: <input type="text" name="diachi"></td>
+                </tr>
+                <tr>
+                    <td>Gmail: <input type="text" name="gmail"></td>
+                </tr>
+                <tr>
+                    <td>Giới Tính: <input type="radio" name="gt">Nam
+                        <input type="radio" name="gt">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Thể Loại Nhạc Bạn Yêu Thích<br>
+
+                        <input type="checkbox" name="tlyt" value="nhacpop">Nhạc Pop<br>
+                        <input type="checkbox" name="tlyt" value="nhacdance">Nhạc Dance<br>
+                        <input type="checkbox" name="tlyt" value="nhacjazz">Nhạc Jazz<br>
+                        <input type="checkbox" name="tlyt" value="nhacrock">Nhạc Rock<br>
+                        <input type="checkbox" name="tlyt" value="nhacblue">Nhạc Blues<br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="sothich">
+                            <option value="t">Thể Loại</option>
+                            <option value="c">Ca sĩ</option>
+                            <option value="b">Bài Hát</option>
+                            <option value="tt">Chương Trình</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nội dung góp ý<br>
+
+                        <textarea cols="28" rows="3">
+
+        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Gửi">
+                        <input type="button" value="Hỗ Trợ" size="300" onclick="alert('Tôi Có Thể Giúp Gì Cho Bạn')">
+                        <input type="reset" value="Quay Lại">
+                    </td>
+
+                </tr>
+
+            </form>
+        </table>
+        <p>Mọi thông tin chi tiết xin liên hệ:</p>
+        <p>Gmail liên hệ: abdc@gmail.com</p>
+        <p>Facebook: httpKL.com</p>
+        <p>zalo: 09**********</p>
+
+    </main>
+    <footer align="center">
+
+        <span id="logocuoi">Bản quyền thuộc về Linh và Kiệt
+            <a href="https://www.facebook.com/?locale=vi_VN"><button style="background-color: #3b5998;"
+                    value="Facebook">Facebook</button></a>
+            <a
+                href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AcMMx-dEg5fsdCJaVY_S2Kbc5vubQSTJjTeG2K4VX
+            DsD2OJ-P8jJjfmYZ9thVPab_2R8CYueD-gbPg&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1824913819%3A1729949221574997&ddm=0"><button
+                    style="background-color: white;;" value="Google">Google</button></a>
+        </span>
+    </footer>
+    <script>
+        const audio = document.getElementById("audio");
+        window.addEventListener('load', function () {
+            
+            audio.play();
+        });
+    </script>
+</body>
+
+</html>

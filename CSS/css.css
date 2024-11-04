@@ -1,0 +1,75 @@
+header{
+    background-image: url(../HINHANH/trangchu.png);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    background-size: cover;
+   
+}
+#Tieude a {
+    margin: 3px;
+    border: 1px solid white;
+    padding: 2px 4px;
+    height: 20px;
+    align-items: center;
+    color: #ed4190;
+    font-size: 24px;
+    background-color: #ffff;
+    text-decoration: none;
+    box-shadow: -5px 1px 10px rgb(184, 184, 184);
+    border-radius: 10%;
+}
+#Tieude{
+    position: absolute;
+    bottom: 0;
+
+}
+#Tieude a :hover{
+    color: aqua;
+    margin: 3px;
+    border: 1px solid palegreen;
+    padding: 2px 4px;
+    height: 20px;
+    align-items: center;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+body{
+    max-width: 70%;
+    margin: auto;
+}
+#abody{
+    background-image: url(../HINHANH/logo1.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: 100px;
+}
+
+#canhgiua{
+    text-align: center;
+    
+}
+#canhanh{
+    text-align: center;
+}
+#logocuoi{
+    background-color: palevioletred;
+    background-position: center;
+    border: 5px solid pink;
+    
+}
+#chu{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#table1{
+    text-align: center;
+    background-color: pink;
+}
+
+img{
+    object-fit: contain;
+}
